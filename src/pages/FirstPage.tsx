@@ -32,7 +32,7 @@ const FirstPage = () => {
       />
       <TextField
         label="Phone"
-        type='number'
+        type='text'
         value={phone}
         onChange={(e) => setPhone(e.target.value)}
         fullWidth
