@@ -24,6 +24,7 @@ const FirstPage = () => {
       {error && <Typography fontFamily={'serif'} color="error">{error}</Typography>}
       <TextField
         label="Name"
+        type='text'
         value={name}
         onChange={(e) => setName(e.target.value)}
         fullWidth
@@ -31,6 +32,7 @@ const FirstPage = () => {
       />
       <TextField
         label="Phone"
+        type='number'
         value={phone}
         onChange={(e) => setPhone(e.target.value)}
         fullWidth
@@ -38,6 +40,7 @@ const FirstPage = () => {
       />
       <TextField
         label="Email"
+        type='email'
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         fullWidth
